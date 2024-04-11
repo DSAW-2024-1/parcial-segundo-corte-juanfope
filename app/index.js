@@ -1,7 +1,7 @@
 const express = require("express");
 const axios = require("axios"); //libreria para solicitudes http a la API de capcoins
 const app = express();
-const PORT = 8080;
+const PORT = process.env.PORT || 8080;
 
 const users = [
   { nombre: 'SAMUEL', apellido: 'ACERO GARCIA' },
@@ -99,5 +99,5 @@ app.use((err, req, res, next) => {
 
 app.listen(
     PORT,
-    () => console.log(`server live at port:${PORT}`)
+    () => console.log(`server live at http://localhost:${PORT}`)
 )

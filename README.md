@@ -2,8 +2,9 @@
 
 ## Examen de Desarrollo Backend con Express
 
-### Nombre y codigo
+### Nombre, codigo y link de deploy
 
+- link: https://parcial2-dw-jjfp.vercel.app/
 - Juan José Forero Peña, 274336
 
 ### Instrucciones Generales
